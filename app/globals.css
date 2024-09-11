@@ -5,3 +5,27 @@ body {
   padding: 0;
   background-color: #f5f5f5;
 }
+
+.flashing-wrapper {
+  display: inline-block;
+  padding: 10px; /* Add some space if needed */
+  animation: flashColors 3s infinite; /* Flashes every second */
+}
+
+@keyframes flashColors {
+  0% { background-color: red; }
+  25% { background-color: blue; }
+  50% { background-color: green; }
+  75% { background-color: yellow; }
+  100% { background-color: red; }
+}
+
+.blinking-wrapper img {
+  animation: blink 100ms infinite; /* Blink every 1 second */
+}
+
+@keyframes blink {
+  0% { opacity: 1; }  /* Fully visible */
+  50% { opacity: 0; } /* Hidden */
+  100% { opacity: 1; } /* Fully visible again */
+}

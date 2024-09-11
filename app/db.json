@@ -1,0 +1,28 @@
+{
+    "Advertisements" : [
+        {
+            "Name" : "Pfizer",
+            "Categories" : ["Heart Disease"],
+            "ImageUrl" : "Pfizer.png",
+            "Description": "Heart Disease drug by Pfizer!"
+        },
+        {
+            "Name" : "Genentech",
+            "Categories" : ["Pancreatic Cancer"],
+            "ImageUrl" : "Genentech.png",
+            "Description": "Pancreatic Cancer drug by Genentech!"
+        },
+        {
+            "Name" : "GSK",
+            "Categories" : ["Arthritis"],
+            "ImageUrl" : "GSK.png",
+            "Description": "Arthritis drug by GSK!"
+        },
+        {
+            "Name" : "Eli Lily",
+            "Categories" : ["Breast Cancer"],
+            "ImageUrl" : "EliLily.png",
+            "Description": "Breast Cancer drug by Eli Lily!"
+        }
+    ]
+}

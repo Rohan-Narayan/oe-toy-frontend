@@ -8,8 +8,6 @@ const client = new OpenAI({
 export async function POST(request: Request) {
   const { question, history } = await request.json();
 
-  console.log("process.env['OPENAI_API_KEY']:", process.env['OPENAI_API_KEY']);
-
   try {
     const chatCompletion = await client.chat.completions.create({
       messages: [
