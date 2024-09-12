@@ -8,11 +8,16 @@ OPENAI_API_KEY=[myApiKey]
 ```
 
 ## Run
+I added a dependency so you may have to update that with
+```bash
+npm install
+```
 
-Run the development server:
+Then, you can run the development server:
 
 ```bash
 npm run dev --registry https://registry.npmjs.org
 ```
+I added the --registry flag due to some npm issues I was facing, this usually isn't necessary.
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
